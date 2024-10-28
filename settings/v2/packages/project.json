@@ -1,0 +1,43 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "physics": {
+    "allowSleep": true,
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "Ground"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 3,
+      "1": 1
+    }
+  },
+  "custom_joint_texture_layouts": [],
+  "sorting-layer": {
+    "layers": [
+      {
+        "id": 0,
+        "name": "default",
+        "value": 0
+      },
+      {
+        "id": 1,
+        "name": "Player",
+        "value": 1
+      },
+      {
+        "id": 2,
+        "name": "Background",
+        "value": 2
+      }
+    ],
+    "increaseId": 2
+  }
+}
